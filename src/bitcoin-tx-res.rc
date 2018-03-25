@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Litecoin"
-            VALUE "FileDescription",    "litecoin-tx (CLI Litecoin transaction editor utility)"
+            VALUE "CompanyName",        "JattCoin"
+            VALUE "FileDescription",    "JattCoin-tx (CLI JattCoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "litecoin-tx"
+            VALUE "InternalName",       "JattCoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "litecoin-tx.exe"
-            VALUE "ProductName",        "litecoin-tx"
+            VALUE "OriginalFilename",   "JattCoin-tx.exe"
+            VALUE "ProductName",        "JattCoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

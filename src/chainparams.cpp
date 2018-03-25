@@ -139,7 +139,7 @@ public:
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_main, pnSeed6_main + ARRAYLEN(pnSeed6_main));
 
-        fDefaultConsistencyChecks = false;
+        fDefauJTConsistencyChecks = false;
         fRequireStandard = true;
         fMineBlocksOnDemand = false;
 
@@ -241,7 +241,7 @@ public:
 
         vFixedSeeds = std::vector<SeedSpec6>(pnSeed6_test, pnSeed6_test + ARRAYLEN(pnSeed6_test));
 
-        fDefaultConsistencyChecks = false;
+        fDefauJTConsistencyChecks = false;
         fRequireStandard = false;
         fMineBlocksOnDemand = false;
 
@@ -311,7 +311,7 @@ public:
         vFixedSeeds.clear(); //!< Regtest mode doesn't have any fixed seeds.
         vSeeds.clear();      //!< Regtest mode doesn't have any DNS seeds.
 
-        fDefaultConsistencyChecks = true;
+        fDefauJTConsistencyChecks = true;
         fRequireStandard = false;
         fMineBlocksOnDemand = true; 
 

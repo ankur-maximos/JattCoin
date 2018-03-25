@@ -315,7 +315,7 @@ Clone the git repositories for JattCoin and Gitian.
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
 git clone https://github.com/JattCoin-project/JattCoin
-git clone https://github.com/JattCoin-project/gitian.sigs.ltc.git
+git clone https://github.com/JattCoin-project/gitian.sigs.JTC.git
 ```
 
 Setting up the Gitian image
@@ -480,5 +480,5 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
-[JattCoin-project/gitian.sigs.ltc](https://github.com/JattCoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+[JattCoin-project/gitian.sigs.JTC](https://github.com/JattCoin-project/gitian.sigs.JTC/) repository, or if that's not possible create a pull
 request. You can also mail the files to thrasher (thrasher@addictionsofware.com) and he will commit them.
